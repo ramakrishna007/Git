@@ -1,0 +1,5 @@
+<config>
+    <url>jdbc:hsqldb:mem:simpledb</url>
+    <user>admin</user>
+    <password>secret123</password>
+</config>
