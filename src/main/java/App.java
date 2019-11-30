@@ -1,6 +1,5 @@
 package com.xyz;
 
-import com.sun.org.slf4j.internal.LoggerFactory;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
