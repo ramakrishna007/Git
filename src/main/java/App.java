@@ -1,16 +1,17 @@
 package com.xyz;
 
+import java.util.Calendar;
 import java.util.Date;
-import org.apache.commons.lang.time.DateFormatUtils;
 
 public class App {
 
-        public static void main(String[] args) {
-                System.out.println("Hello World! Today is " + getToday());
-        }
+    public static void main(String[] args) {
+        System.out.println("Hello World! Today is " + getToday().toString());
+    }
 
-        public static String getToday() {
-                String today = DateFormatUtils.format(new Date(), "dd-MMM-yyyy");
-                return today;
-        }
+    public static Date getToday() {
+//                String today = DateFormatUtils.format(new Date(), "dd-MMM-yyyy");
+        Date today = Calendar.getInstance().getTime();
+        return today;
+    }
 }
