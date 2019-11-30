@@ -16,7 +16,7 @@ public class App {
 
     public static Date getToday() {
 //                String today = DateFormatUtils.format(new Date(), "dd-MMM-yyyy");
-        Date today = Calendar.getInstance().getTime();
+        Date today = Calendar.getInstance().getTime()
         return today;
     }
 }
