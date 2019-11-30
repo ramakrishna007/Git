@@ -10,7 +10,7 @@ public class App {
     private static Logger log = Logger.getLogger(App.class);
 
     public static void main(String[] args) throws IOException {
-        System.out.println("Hello World! Today is " + getToday()]);
+        System.out.println("Hello World! Today is " + getToday());
         log.info("Hello World! Today is " + getToday());
         throw new IOException();
     }
